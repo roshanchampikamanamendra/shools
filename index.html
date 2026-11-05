@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Schools of Sri Lanka · Cartography by Roshan</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="signature"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M18 2 32 10v16l-14 8L4 26V10Z" fill="#843f36"/><g fill="none" stroke="#ffe7b2" stroke-width="1.4"><path d="m10 13 8-5 8 5-8 5zM10 18l8 5 8-5M10 23l8 5 8-5"/></g></svg>Cartography by Roshan</div><button id="toggle" aria-expanded="false" aria-controls="chart">Chart</button><a id="nsdi" href="https://gisapps.nsdi.gov.lk/server/rest/services/Srilanka/Society_Health/MapServer/2" target="_blank" rel="noopener">NSDI dataset ↗</a></header>
+<main><div id="map"></div><iframe id="native" title="GeoLibre interactive school map" allow="fullscreen" hidden></iframe>
+<section class="title"><div>SRI LANKA</div><h1>School locations</h1><p>10,148 mapped schools</p></section>
+<section class="key"><strong id="key-title">Schools per hexagon</strong><div id="swatches"></div><small id="tip">Zoom in to see individual schools</small></section>
+<nav aria-label="Map controls"><button id="plus" aria-label="Zoom in">+</button><button id="minus" aria-label="Zoom out">−</button><button id="home" aria-label="Show Sri Lanka">⌂</button></nav><aside id="chart" hidden><strong>Schools in view</strong><div id="school-bars"></div></aside>
+<div class="credits"><a href="schools.geolibre.json" download="schools.geolibre.json">GeoLibre project ↓</a></div><div id="load" role="status">Loading schools…</div></main>
+<script src="app.js"></script></body></html>
